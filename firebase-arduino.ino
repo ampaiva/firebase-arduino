@@ -24,7 +24,6 @@
 #elif __has_include(<WiFiS3.h>)
 #include <WiFiS3.h>
 #endif
-
 #include <Firebase_ESP_Client.h>
 
 // Provide the token generation process info.
@@ -208,3 +207,4 @@ void loop()
             Serial.println(fbdo.errorReason());
     }
 }
+
